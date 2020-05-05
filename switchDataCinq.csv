@@ -1,0 +1,63 @@
+Concept1,Relation,Concept2,ConceptColor
+Territory,is composed of ,Transportation Network ,Territory
+Territory,is composed of ,Activity Place,Territory
+Territory,is threatened by,Disruption Risk ,Territory
+Territory,is evaluated by/is described by,Indicator ,Territory
+Territory,is organized,Stakeholder ,Territory
+Location,is owned by,Infrastructure,Location
+Location,is owned by,Activity Place,Location
+Activity Place,has,Location,Activity Place
+Activity Place,is owned by,Trip ,Activity Place
+Activity Place,composes,Territory,Activity Place
+Transport Mode,is threatened by,Disruption Risk ,Transport Mode
+Transport Mode,is evaluated by/is described by,Indicator ,Transport Mode
+Transport Mode,uses,Infrastructure,Transport Mode
+Transport Mode,is organized by/is operated by/is used by ,Stakeholder ,Transport Mode
+Infrastructure,is used by,Transport Mode,Infrastructure
+Infrastructure,composes,Transportation Network ,Infrastructure
+Infrastructure,is threatened by,Disruption Risk ,Infrastructure
+Infrastructure,is evaluated by/is described by,Indicator ,Infrastructure
+Infrastructure,has,Location,Infrastructure
+Infrastructure,is organized by/is operated by/is used by ,Stakeholder ,Infrastructure
+Infrastructure ,is used by,Trip ,Infrastructure 
+Transportation Network ,composes,Territory,Transportation Network 
+Transportation Network ,is evaluated by/is described by,Indicator ,Transportation Network 
+Transportation Network ,is composed of ,Infrastructure,Transportation Network 
+Transportation Network ,is threatened by,Disruption Risk ,Transportation Network 
+Transportation Network ,is used by ,Trip ,Transportation Network 
+Transportation Network ,is organized by/is operated by ,Stakeholder ,Transportation Network 
+Indicator ,evaluates/describes,Territory,Indicator 
+Indicator ,evaluates/describes,Transport Mode,Indicator 
+Indicator ,evaluates/describes,Infrastructure,Indicator 
+Indicator ,evaluates/describes,Transportation Network ,Indicator 
+Indicator ,evaluates/describes,Disruption Risk ,Indicator 
+Indicator ,evaluates/describes,Trip ,Indicator 
+Indicator ,evaluates/describes,Stakeholder ,Indicator 
+Disruption Risk ,is evaluated by/is described by ,Indicator ,Disruption Risk 
+Disruption Risk ,threatens,Territory,Disruption Risk 
+Disruption Risk ,threatens,Transport Mode,Disruption Risk 
+Disruption Risk ,threatens,Infrastructure,Disruption Risk 
+Disruption Risk ,threatens,Transportation Network ,Disruption Risk 
+Disruption Risk ,threatens,Trip ,Disruption Risk 
+Trip ,uses,Transport Mode,Trip 
+Trip ,uses,Infrastructure,Trip 
+Trip ,uses,Transportation Network ,Trip 
+Trip ,is taked by ,Stakeholder ,Trip 
+Trip ,requires,Ressource ,Trip 
+Trip ,is evaluated by/is described by,Indicator ,Trip 
+Trip ,has,Time ,Trip 
+Trip ,departs from/ arrives in ,Activity Place,Trip 
+Stakeholder ,organises ,Territory,Stakeholder 
+Stakeholder ,uses/operates on/organises,Transport Mode,Stakeholder 
+Stakeholder ,operates on/organises ,Infrastructure,Stakeholder 
+Stakeholder ,operates on/organises ,Transportation Network ,Stakeholder 
+Stakeholder ,is evaluated by/is described by,Indicator ,Stakeholder 
+Stakeholder ,takes,Trip ,Stakeholder 
+Stakeholder ,has,Ressource ,Stakeholder 
+Stakeholder ,has,Objective ,Stakeholder 
+Ressource ,is required by,Trip ,Ressource 
+Ressource ,is owned by,Stakeholder ,Ressource 
+Time ,is owned by,Trip ,Time 
+Time ,is owned by,Objective ,Time 
+Objective ,is owned by,Stakeholder ,Objective 
+Objective ,has,Time ,Objective 
