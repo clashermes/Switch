@@ -1,0 +1,7 @@
+Concept1,Relation,Concept2,Species
+Regis,est ,Regis,setosa
+Marc,organise,Marc,setosa
+Colin,demonte,Colin,versicolor
+Alex,est organisé,Alex,versicolor
+Aurel,,Aurel,virginica
+Matthieu,,Matthieu,virginica
